@@ -48,14 +48,14 @@ fun ChatScreen(viewModel: GtshViewModel) {
             verticalArrangement = Arrangement.spacedBy(12.dp)
         ) {
             items(history) { msg ->
-                ChatBubble(text = msg.content, isUser = msg.role == "user", currentLang = currentLang)
+                ChatBubble(text = msg.content, isUser = msg.role == "user")
             }
             if (uiState.currentReply.isNotEmpty() || uiState.isTyping) {
                 item {
                     ChatBubble(
                         text = uiState.currentReply.ifEmpty { if (currentLang == "EN") "Thinking..." else "正在思考..." },
                         isUser = false,
-                        currentLang = currentLang
+
                     )
                 }
             }

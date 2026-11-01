@@ -11,8 +11,8 @@ android {
 
     defaultConfig {
         applicationId = "com.example.gtsh"
-        minSdk = 36
-        targetSdk = 37
+        minSdk = 24
+        targetSdk = 34
         versionCode = 1
         versionName = "1.7-beta"
 
