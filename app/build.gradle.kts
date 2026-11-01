@@ -6,7 +6,7 @@ plugins {
 android {
     namespace = "com.example.gtsh"
     compileSdk {
-        version = release(37)
+        version = release(24)
     }
 
     defaultConfig {
@@ -14,7 +14,7 @@ android {
         minSdk = 24
         targetSdk = 34
         versionCode = 1
-        versionName = "1.7-beta"
+        versionName = "1.1.7-GUTHUB.OPEN SOURCE BASENEDITION"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
