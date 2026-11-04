@@ -1,3 +1,6 @@
+The Android 13–Android 17 compatible version is expected to be released on 2026/12/10.
+预计于2026/12/10发布安卓13~安卓17兼容版
+
 # GTSH - AI Persistent Memory Architecture
 
 Have you ever experienced this: you chat with an AI for a long time, but due to the "context length limit", it suddenly forgets what you talked about earlier?
